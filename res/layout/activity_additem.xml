@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<View
+		android:id="@+id/separator1"
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginBottom="5dp"
+		android:background="#ffffff" />
+
+	<TextView
+	    android:id="@+id/addItemTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:textStyle="bold"
+		android:text="@string/custom_dialog_thing_title"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<EditText
+		android:id="@+id/addItemTitleTxt"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:textColor="@android:color/primary_text_light"
+		android:hint="@string/custom_dialog_thing_title_hint"
+		android:imeOptions="actionNext"
+		android:windowSoftInputMode="stateVisible"
+		android:inputType="text" />
+
+	<TextView
+		android:id="@+id/addItemDescription"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:textStyle="bold"
+		android:text="@string/custom_dialog_thing_description"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<EditText
+		android:id="@+id/addItemDescriptionTxt"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:textColor="@android:color/primary_text_light"
+		android:hint="@string/custom_dialog_thing_description_hint"
+		android:imeOptions="actionDone"
+		android:inputType="textMultiLine" />
+
+	<TextView
+		android:id="@+id/addItemPriority"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:textStyle="bold"
+		android:text="@string/custom_dialog_thing_priority"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Spinner
+		android:id="@+id/prioritySpinner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:entries="@array/priorities"
+		android:prompt="@string/custom_dialog_priority_prompt" />
+
+	<View
+		android:id="@+id/separator2"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:layout_marginBottom="5dp"
+		android:background="#ffffff" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal" >
+
+		<Button
+			android:id="@+id/okButton"
+			android:layout_width="125dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/button"
+			android:text="@string/custom_dialog_save_button" />
+	</LinearLayout>
+
+</LinearLayout>

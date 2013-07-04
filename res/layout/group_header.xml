@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/itemTitle"
+	android:layout_width="fill_parent"
+	android:layout_height="70dp"
+	android:drawableLeft="@drawable/priority_medium"
+	android:drawablePadding="10dp"
+	android:drawingCacheQuality="high"
+	android:gravity="left|center_vertical"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:textIsSelectable="true" >
+
+</TextView>

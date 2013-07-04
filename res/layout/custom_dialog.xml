@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/customDialogTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:text="@string/custom_dialog_default_title"
+		android:textStyle="bold" />
+
+	<View
+		android:id="@+id/separator1"
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_marginBottom="5dp"
+		android:background="#ffffff" />
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:text="@string/custom_dialog_thing_title"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText
+		android:id="@+id/thingTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:hint="@string/custom_dialog_thing_title_hint"
+		android:inputType="text" />
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:text="@string/custom_dialog_thing_description"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<EditText
+		android:id="@+id/thingDescription"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:hint="@string/custom_dialog_thing_description_hint"
+		android:inputType="textMultiLine" />
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="20dp"
+		android:text="@string/custom_dialog_thing_priority"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<Spinner
+		android:id="@+id/prioritySpinner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:entries="@array/priorities"
+		android:prompt="@string/custom_dialog_priority_prompt" />
+
+	<View
+		android:id="@+id/separator2"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:layout_marginBottom="5dp"
+		android:background="#ffffff" />
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:orientation="horizontal" >
+
+		<Button
+			android:id="@+id/okButton"
+			android:layout_width="125dp"
+			android:layout_height="wrap_content"
+			android:text="@string/custom_dialog_ok_button" />
+
+		<Button
+			android:id="@+id/cancelButton"
+			android:layout_width="125dp"
+			android:layout_height="wrap_content"
+			android:text="@string/custom_dialog_cancel_button" />
+	</LinearLayout>
+
+</LinearLayout>

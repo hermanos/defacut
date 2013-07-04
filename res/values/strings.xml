@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- GENERAL -->
+	<string name="app_name">TODO-ITBootcamp 2013</string>
+	<string name="action_settings">Settings</string>
+	<string name="add_button_text">Add a new TODO item</string>
+
+	<!-- GENERIC STRING -->
+	<string name="generic_undo">Back</string>
+	<string name="generic_edit">Edit</string>
+	<string name="generic_add">Add</string>
+	<string name="addcontent">Add a title please.</string>
+
+	<!-- MENUS -->
+	<string name="menu_add_item">Create todo item</string>
+	<string name="menu_sort_items_by_priority">Sort by priority</string>
+	<string name="menu_show_inprogress_items">In Progress items items</string>
+	<string name="menu_show_done_items">Show all done items</string>
+
+	<!-- CUSTOM DIALOG -->
+	<string name="custom_dialog_thing_title">Title:</string>
+	<string name="custom_dialog_thing_description">Description:</string>
+	<string name="custom_dialog_thing_priority">Priority:</string>
+	<string name="custom_dialog_default_title">Edit dialog</string>
+	<string name="custom_dialog_thing_title_hint">title</string>
+	<string name="custom_dialog_thing_description_hint">description</string>
+	<string name="custom_dialog_ok_button">OK</string>
+	<string name="custom_dialog_save_button">Save</string>
+	<string name="custom_dialog_cancel_button">@string/generic_undo</string>
+	<string name="custom_dialog_priority_prompt">Choose a priority</string>
+	
+	<string name="remote_done"><u>Already done?</u></string>
+	<string name="deleted_item">Deleted item</string>
+
+	<!-- ADD DIALOG -->
+	<string name="add_dialog_title">Create new</string>
+	<string name="add_dialog_ok_button">@string/generic_add</string>
+
+	<!-- EDIT DIALOG -->
+	<string name="edit_dialog_title">@string/generic_edit</string>
+	<string name="edit_dialog_ok_button">Update</string>
+
+	<!-- CHOOSE BOX -->
+	<string name="choose_box_title">Choose an action</string>
+	<string name="choose_box_positive_button">@string/generic_edit</string>
+	<string name="choose_box_negative_button">Delete</string>
+	<string name="choose_box_neutral_button">@string/generic_undo</string>
+
+	<!-- PRIORITIES DEFINITION -->
+	<string-array name="priorities">
+		<item>Low</item>
+		<item>Bright Idea</item>
+		<item>High</item>
+		<item>Done!</item>
+	</string-array>
+	<string name="priority_image_description">Priority Image</string>
+
+	<!-- TOAST MESSAGES -->
+	<string name="toast_add_success">Item added successfully!</string>
+	<string name="toast_update_success">Item updated successfully!</string>
+	<string name="toast_delete_success">Item deleted successfully!</string>
+	
+	<string name="failedtoopenpropertyfile">Cannot find properties file.</string>
+	<string name="noconnectivity">No internet connection found. Try again please.</string>
+	
+	<!-- COMMON TITLES -->
+	<string name="localtodo">Local Todo</string>
+	<string name="remotetodo">Remote Todo</string>
+	
+
+</resources>
